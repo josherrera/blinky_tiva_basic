@@ -80,6 +80,8 @@ main(void)
     //
     GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_3);
 
+    // Edit 1: add delay variable
+    int delay = 20000000;
     //
     // Loop forever.
     //
@@ -93,7 +95,7 @@ main(void)
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 200000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < delay; ui32Loop++)
         {
         }
 
@@ -105,7 +107,7 @@ main(void)
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 200000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < delay; ui32Loop++)
         {
         }
     }
