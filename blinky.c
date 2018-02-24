@@ -82,6 +82,7 @@ main(void)
 
     // Edit 1: add delay variable
     int delay = 20000000;
+    // Ecit 2: Just a comment
     //
     // Loop forever.
     //
